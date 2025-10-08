@@ -1,0 +1,13 @@
+/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/bin/Debug/net9.0/CoreLib.deps.json
+/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/bin/Debug/net9.0/CoreLib.dll
+/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/bin/Debug/net9.0/CoreLib.pdb
+/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/obj/Debug/net9.0/CoreLib.csproj.AssemblyReference.cache
+/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/obj/Debug/net9.0/CoreLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/obj/Debug/net9.0/CoreLib.AssemblyInfoInputs.cache
+/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/obj/Debug/net9.0/CoreLib.AssemblyInfo.cs
+/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/obj/Debug/net9.0/CoreLib.csproj.CoreCompileInputs.cache
+/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/obj/Debug/net9.0/CoreLib.sourcelink.json
+/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/obj/Debug/net9.0/CoreLib.dll
+/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/obj/Debug/net9.0/refint/CoreLib.dll
+/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/obj/Debug/net9.0/CoreLib.pdb
+/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/obj/Debug/net9.0/ref/CoreLib.dll
