@@ -1,5 +1,7 @@
 using Expenses.DAL.Data;
 using Expenses.Logic.Services;
+using Expenses.Api.Infrastructure;
+using Expenses.Api.Middleware;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +18,9 @@ builder.Services.AddDbContext<ExpensesDbContext>(options =>
 // Добавление сервисов бизнес-логики
 builder.Services.AddScoped<ExpenseService>();
 
+// Добавляем TraceService для работы с TraceId
+builder.Services.AddScoped<TraceService>();
+
 var app = builder.Build();
 
 // Настройка конвейера HTTP запросов
@@ -24,6 +29,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Добавляем TraceId middleware ПЕРЕД другими middleware
+app.UseMiddleware<TraceIdMiddleware>();
+
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
 
 // Инициализация базы данных
 try
@@ -53,9 +65,5 @@ catch (Exception ex)
 {
     Console.WriteLine($"Ошибка инициализации БД: {ex.Message}");
 }
-
-app.UseHttpsRedirection();
-app.UseAuthorization();
-app.MapControllers();
 
 app.Run();

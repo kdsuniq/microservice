@@ -1,0 +1,13 @@
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.Core/bin/Debug/net9.0/AuthService.Core.deps.json
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.Core/bin/Debug/net9.0/AuthService.Core.dll
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.Core/bin/Debug/net9.0/AuthService.Core.pdb
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.Core/obj/Debug/net9.0/AuthService.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.Core/obj/Debug/net9.0/AuthService.Core.AssemblyInfoInputs.cache
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.Core/obj/Debug/net9.0/AuthService.Core.AssemblyInfo.cs
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.Core/obj/Debug/net9.0/AuthService.Core.csproj.CoreCompileInputs.cache
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.Core/obj/Debug/net9.0/AuthService.Core.sourcelink.json
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.Core/obj/Debug/net9.0/AuthService.Core.dll
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.Core/obj/Debug/net9.0/refint/AuthService.Core.dll
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.Core/obj/Debug/net9.0/AuthService.Core.pdb
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.Core/obj/Debug/net9.0/ref/AuthService.Core.dll
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.Core/obj/Debug/net9.0/AuthService.Core.csproj.AssemblyReference.cache
