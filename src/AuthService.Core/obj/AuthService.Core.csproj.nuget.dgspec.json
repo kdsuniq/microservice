@@ -25,6 +25,83 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/CoreLib.csproj": {
+                "projectPath": "/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/CoreLib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.5.5, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/CoreLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/CoreLib.csproj",
+        "projectName": "CoreLib",
+        "projectPath": "/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/CoreLib.csproj",
+        "packagesPath": "/Users/kdsuniq/.nuget/packages/",
+        "outputPath": "/Users/kdsuniq/Desktop/ArtSofte/src/CoreLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kdsuniq/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -44,13 +121,13 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "Serilog.AspNetCore": {
+            "MassTransit": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.5.5, )"
             },
-            "Serilog.Sinks.Console": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[9.0.9, )"
             }
           },
           "imports": [

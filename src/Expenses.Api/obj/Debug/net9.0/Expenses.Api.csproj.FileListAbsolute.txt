@@ -161,3 +161,6 @@
 /Users/kdsuniq/Desktop/ArtSofte/src/Expenses.Api/obj/Debug/net9.0/Expenses.Api.pdb
 /Users/kdsuniq/Desktop/ArtSofte/src/Expenses.Api/obj/Debug/net9.0/Expenses.Api.genruntimeconfig.cache
 /Users/kdsuniq/Desktop/ArtSofte/src/Expenses.Api/obj/Debug/net9.0/ref/Expenses.Api.dll
+/Users/kdsuniq/Desktop/ArtSofte/src/Expenses.Api/bin/Debug/net9.0/MassTransit.dll
+/Users/kdsuniq/Desktop/ArtSofte/src/Expenses.Api/bin/Debug/net9.0/MassTransit.Abstractions.dll
+/Users/kdsuniq/Desktop/ArtSofte/src/Expenses.Api/bin/Debug/net9.0/MassTransit.EntityFrameworkCoreIntegration.dll

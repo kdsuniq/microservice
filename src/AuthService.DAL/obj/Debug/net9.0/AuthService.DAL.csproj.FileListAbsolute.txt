@@ -3,7 +3,9 @@
 /Users/kdsuniq/Desktop/ArtSofte/src/AuthService.DAL/bin/Debug/net9.0/AuthService.DAL.dll
 /Users/kdsuniq/Desktop/ArtSofte/src/AuthService.DAL/bin/Debug/net9.0/AuthService.DAL.pdb
 /Users/kdsuniq/Desktop/ArtSofte/src/AuthService.DAL/bin/Debug/net9.0/AuthService.Core.dll
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.DAL/bin/Debug/net9.0/CoreLib.dll
 /Users/kdsuniq/Desktop/ArtSofte/src/AuthService.DAL/bin/Debug/net9.0/AuthService.Core.pdb
+/Users/kdsuniq/Desktop/ArtSofte/src/AuthService.DAL/bin/Debug/net9.0/CoreLib.pdb
 /Users/kdsuniq/Desktop/ArtSofte/src/AuthService.DAL/obj/Debug/net9.0/AuthService.DAL.csproj.AssemblyReference.cache
 /Users/kdsuniq/Desktop/ArtSofte/src/AuthService.DAL/obj/Debug/net9.0/AuthService.DAL.GeneratedMSBuildEditorConfig.editorconfig
 /Users/kdsuniq/Desktop/ArtSofte/src/AuthService.DAL/obj/Debug/net9.0/AuthService.DAL.AssemblyInfoInputs.cache

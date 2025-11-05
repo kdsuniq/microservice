@@ -2,7 +2,9 @@ using Expenses.DAL.Data;
 using Expenses.Logic.Services;
 using Expenses.Api.Infrastructure;
 using Expenses.Api.Middleware;
+using Expenses.Api.Consumers;  // ← ДОБАВЬ ЭТУ СТРОЧКУ
 using Microsoft.EntityFrameworkCore;
+using MassTransit;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +22,19 @@ builder.Services.AddScoped<ExpenseService>();
 
 // Добавляем TraceService для работы с TraceId
 builder.Services.AddScoped<TraceService>();
+
+builder.Services.AddMassTransit(x =>
+{
+    x.AddConsumer<TransactionOrchestrator>();
+    x.AddConsumer<WalletBalanceUpdatedConsumer>();
+    x.AddConsumer<StatisticsUpdatedConsumer>();
+    x.AddConsumer<NotificationSentConsumer>();
+    
+    x.UsingInMemory((context, cfg) =>
+    {
+        cfg.ConfigureEndpoints(context);
+    });
+});
 
 var app = builder.Build();
 
